@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from my Spring Boot application!jvk  ";
+        return "Hello from my Spring Boot application!jvk ";
     }
 }
